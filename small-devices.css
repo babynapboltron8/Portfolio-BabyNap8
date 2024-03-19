@@ -138,4 +138,13 @@
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+
+    .profile-photo img {
+        max-width: 100%;
+        position: absolute;
+        top: 7px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
 }
