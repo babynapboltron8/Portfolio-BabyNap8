@@ -13,6 +13,7 @@
         flex-direction: column;
         --color1: #f59e0b;
         --color2: #eeeeee;
+        --color3: #000000;
     }
     
     header {
@@ -80,7 +81,7 @@
     .menu li a {
         display: inline-block;
         text-decoration: none;
-        color: var(--color1);
+        color: var(--color3);
         text-align: center;
         font: 1rem "Poppins", sans-serif;
         font-weight: 600;
